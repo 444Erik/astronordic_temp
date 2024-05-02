@@ -23,7 +23,7 @@ export default function Root() {
         <Meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <Body>
-        <div class="bg"></div>
+        <div class="bg">srfcjbdkfjdfdvfnjkdf vnjknkdfkdf</div>
         <Suspense>
           <ErrorBoundary>
             <Routes>
