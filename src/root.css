@@ -3,6 +3,14 @@ body {
     'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+.bg {
+  background-image: url("iss.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 a {
   margin-right: 1rem;
 }
