@@ -3,6 +3,9 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="icon" type="image/x-icon" href="iss2.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 <style>
 body, html {
   height: 100%;
@@ -25,13 +28,34 @@ body, html {
 .center {
   text-align: center;
 }
+
+#title {
+    color: #ff7300;
+    font-family: arial;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    font-size: 6em;
+    font-weight: bold;
+}
+
+.work-sans-title {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+  
 </style>
 </head>
+  
 <body>
 
 <div class="bg">
   <div class="center">
-    <p>AstroNordic</p>
+    <p id="title" class=".work-sans-title">AstroNordic</p>
   </div>
 </div>
 
