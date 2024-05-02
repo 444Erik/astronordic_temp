@@ -4,7 +4,7 @@ body {
 }
 
 .bg {
-  background-image: url("iss.jpg");
+  background-image: url("dgghdgfhdh.jpg");
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -36,14 +36,4 @@ p {
   max-width: 14rem;
   margin: 2rem auto;
   line-height: 1.35;
-}
-
-@media (min-width: 480px) {
-  h1 {
-    max-width: none;
-  }
-
-  p {
-    max-width: none;
-  }
 }
